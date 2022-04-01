@@ -28,4 +28,6 @@ describe('Login e registro de usuarios alura pic', () => {
         cy.contains('button', 'Register').click(); 
         cy.contains('ap-vmessage', 'Mininum length is 8').should('be.visible'); 
     })
+
+    
 })
