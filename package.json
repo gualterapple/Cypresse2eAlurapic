@@ -1,0 +1,14 @@
+{
+  "name": "alurapic",
+  "version": "1.0.0",
+  "description": "Testes com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Gualter dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3"
+  }
+}
