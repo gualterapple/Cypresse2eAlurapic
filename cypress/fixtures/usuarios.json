@@ -1,0 +1,20 @@
+[
+    {
+      "email": "luke.skywalker1@alura.com.br",
+      "fullName": "Luke Skywalker1",
+      "userName": "luke1",
+      "password": "skywalker1"
+    },
+    {
+      "email": "leia.organa1@alura.com.br",
+      "fullName": "Leia Organa1",
+      "userName": "leia1",
+      "password": "general1"
+    },
+    {
+      "email": "anakin.skywalker1@alura.com.br",
+      "fullName": "Anakin Skywalker1",
+      "userName": "anakin1",
+      "password": "darthvader1"
+    }
+  ]

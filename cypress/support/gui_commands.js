@@ -1,4 +1,3 @@
-const cypress = require("cypress");
 
 Cypress.Commands.add('login', (nome, senha) => {
     cy.get('input[formcontrolname="userName"]').type(nome);
