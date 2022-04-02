@@ -2,7 +2,7 @@
 describe('Login de usuários alura pic', () => {
 
     beforeEach(() => {
-        cy.visit('https://alura-fotos.herokuapp.com/')
+        cy.visit('/')
     })
 
     it('buscar fotos do flavio', () => {      
@@ -18,7 +18,7 @@ describe('Login de usuários alura pic', () => {
     });
 
     it('fazer login de usuario valido', () => {    
-        cy.login('falvio', '123');
+        cy.login(Cypress.env('userName'), Cypress.env('password'));
         cy.contains('a', '(Logout)').should('be.visible'); 
     });
 
